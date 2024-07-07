@@ -1,0 +1,81 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+
+.ca-report, .payroll-report
+{
+    border-radius: 3px;
+    border-top: 5px solid #5E6262;
+    border-bottom: 2px solid #5E6262;
+
+}
+
+.ca-report td
+{
+    width: 100px;
+}
+
+.ca-report tr, .payroll-report tr
+{
+    height: 50px;
+}
+
+.ca-report td, .payroll-report td
+{
+    font-size: 12px;
+    padding: 15px;
+    border-left: 1px solid #5E6262;
+}
+
+.container
+{
+    display: flex;
+}
+
+.border-right
+{
+    border-right: 1px solid #5E6262;
+}
+
+.payroll-report td
+{
+    width: 150px;
+}
+
+.ca-report .report-name, .payroll-report .report-name
+{
+    font-weight: bold;
+    width: 200px;
+}
+
+.ca-report .report-amt 
+{
+    width: 50px;
+}
+
+.payroll-report .report-amt 
+{
+    width: 50px;
+}
+
+
+thead td
+{
+    border-bottom: 1px solid #5E6262;
+}
+
+thead tr
+{
+    color: black;
+    text-align: left;
+    font-size: 12px;
+    font-weight: normal;
+
+}
+
+tbody td
+{
+border-bottom: 1px solid #5E6262;
+}

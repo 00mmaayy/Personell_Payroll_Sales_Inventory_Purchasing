@@ -1,0 +1,51 @@
+body {
+    font-family: 'Calibri Light', 'Trebuchet MS', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.current-container {
+    width: 30%;
+    position: relative;
+    margin: 50px;
+}
+
+.current-header {
+    margin-top: 10px;
+    background: royalblue;
+    color: white;
+}
+
+.current-header div {
+    padding: 10px;
+}
+
+.current-data div,
+.total div {
+    padding: 5px 10px;
+}
+
+.current-data,
+.total {
+    border-bottom: 1px solid gray;
+}
+
+.header-name,
+.data-name,
+.total-name {
+    width: 50%;
+}
+
+.header-name {
+    border-right: 1px solid white;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 17px;
+    border: 1px solid gray;
+    background: rgb(41, 41, 41);
+    color: white;
+}

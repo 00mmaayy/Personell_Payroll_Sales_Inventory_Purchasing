@@ -1,0 +1,147 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.data-container
+{
+    width: 900px;
+    margin: auto;
+    padding: auto;
+}
+
+.header, .ip-container
+{
+    display: flex;
+}
+
+.ip-container hr
+{
+    display: none;
+}
+
+.ip-container:hover
+{
+    background: #C7CDF3;
+    color: black;
+}
+
+.button
+{
+    border: 0;
+    background: transparent;
+    color: royalblue;
+    cursor: pointer;
+}
+
+.update-btn
+{
+    background: transparent;
+    margin: 0 10px;;
+    font-size: 10px;
+    border: 1px solid royalblue;
+    padding: 5px;
+}
+
+.link-details
+{
+    text-decoration: none;
+    color: black;
+}
+
+.ip-add-header, .ip-user-header, .ip-lease-header
+{
+    border-top: 1px solid #2234AB;
+    border-left: 1px solid #2843EC;
+    border-bottom: 1px solid gray;
+}
+
+.ip-mac-header
+{
+    border: 1px solid #2234AB;
+    border-bottom: 1px solid gray;
+}
+
+.ip-add, .ip-add-header
+{
+    width: 180px;
+    text-align: center;
+    padding: 5px 3px;
+    font-size: 12px;
+}
+
+.ip-add
+{
+    font-weight: bold;
+}
+
+.ip-user-header, .ip-mac-header, .ip-lease-header, .ip-add-header
+{
+    font-size: 12px;
+    text-align: center;
+    background: royalblue;
+    color: white;
+}
+
+.ip-user, .ip-lease, .ip-mac
+{
+    font-size: 13px;
+    text-align: center;
+}
+
+.ip-user, .ip-user-header
+{
+    width: 280px;
+}
+
+.ip-lease, .ip-lease-header
+{
+    width: 150px;
+}
+
+.ip-mac, .ip-mac-header
+{
+    width: 180px;
+}
+
+.edit, .ip-blank-header
+{
+    width: 40px;
+}
+
+.ip-user, .ip-user-header, .ip-lease, .ip-lease-header, .ip-mac, .ip-mac-header
+{
+    padding: 3px 3px;
+}
+
+.ip-add, .ip-user, .ip-lease, .ip-mac
+{
+    border-left: 1px solid black;
+    border-bottom: 1px solid gray;
+}
+
+.ip-mac
+{
+    border-right: 1px solid black;
+}
+
+.user-input
+{
+    width: 250px;
+    padding: 3px;
+    font-size: 12px;
+}
+
+.lease-input
+{
+    width: 120px;
+    padding: 3px;
+    font-size: 12px;
+}
+
+.mac-input
+{
+    width: 140px;
+    padding: 3px;
+    font-size: 12px;
+}

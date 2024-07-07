@@ -1,0 +1,297 @@
+.center 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.set-date-container
+{
+    border: 2px solid #3A73DB;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.set-date-container form
+{
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+}
+
+.set-date-container span
+{
+    margin-left: 30px;
+    font-size: 12px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.set-date-container .span-date
+{
+    padding-bottom: 40px;
+    color: #3A73DB;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.set-date-container input
+{
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 30px;
+    border: 1px solid gray;
+}
+
+.set-date-container .set-button
+{
+    width: 150px;
+    margin-left: 120px;
+    padding: 10px;
+    border: 1px solid #3A73DB;
+    background: #3A73DB;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.ca-table 
+{
+    width: 100%;
+}
+
+.table-header th
+{
+    width: 148px;
+}
+
+.table-header
+{
+    margin-left: 110px;
+}
+
+.button
+{
+    width: 75px;
+    border: 2px solid #0A41A5;
+    border-radius: 4px;
+    background: #0A41A5;
+    color: white;
+}
+
+.ca-input
+{
+    width: 100px;
+}
+
+.ca-table-data
+{
+    margin-left: 160px;
+    border-bottom: 1px dashed black;
+}
+
+.ca-table-data td
+{
+    width: 150px;
+    margin: auto;
+}
+
+.ca-table-data .ca-edit
+{
+    width: 50px;
+    margin: auto;
+    color: #0A41A5;
+}
+
+.ca-table-input td
+{
+    font-weight: bold;
+}
+
+.ca-table
+{
+    margin-left: 10px;
+}
+
+.ca-header
+{
+    background: #3A73DB;
+    margin: 0;
+    height: 40px;
+}
+
+.ca-header .release
+{
+    margin-left: 0;
+}
+
+.ca-header-report
+{
+    background: #3A73DB;
+    margin: 0;
+    height: 40px;
+    width: 100%;
+    margin: auto;
+}
+
+.ca-header-report div
+{
+    line-height: 34px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 100%;
+
+}
+
+.ca-header span
+{
+    line-height: 34px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+    margin-left: 1230px;
+}
+
+.ca-input input
+{
+    margin-bottom: 15px;
+}
+
+.date-table span
+{
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+.date-table p
+{
+    font-size: 14px;
+}
+
+.date-table table
+{
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.date-table input 
+{
+    width: 100px;
+    border: 2px solid #0A41A5;
+    border-radius: 4px;
+    background: #0A41A5;
+    color: white;
+}
+
+.date-table table
+{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.date-table
+{
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.date-table .date-table-header select
+{
+    padding: 5px;
+    font-size: 12px;
+}
+
+.date-table-header .date-header
+{
+    font-weight: normal;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.date-table-header span
+{
+    font-weight: bold;
+}
+
+.ca-total
+{
+    font-weight: bold;
+    color: red;
+}
+
+.ca-report-main
+{
+    display: flex;
+}
+
+#radio-dates
+{
+    width: 10px;
+    margin: 10px;
+    margin-bottom: 1px;
+    margin-top: 4px;
+}
+
+.report-dates
+{
+    font-size: 11px;
+}
+
+body 
+{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+input
+{
+    width: 180px;
+    padding: 5px;
+}
+
+.btn
+{
+    border: 0;
+    background: transparent;
+    font-size: 20px;
+    color: royalblue;
+}
+
+.btn:hover
+{
+    border: 0;
+}
+
+.btn:active
+{
+    border: 0;
+}
+
+.ca-amount
+{
+    color: royalblue;
+}
+
+.ca-date
+{
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+.ca-table-data input
+{
+    width: 115px;
+    height: 20px;
+    font-size: 11px;
+    padding: 3px;
+}

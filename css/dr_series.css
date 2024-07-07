@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input-cont {
+    width: 600px;
+    margin: auto;
+}
+
+.input-cont input {
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+
+.input-cont input[type="submit"] {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background: royalblue;
+    color: white;
+    cursor: pointer;
+}
+
+.input-cont input[type="text"] {
+    border: 1px solid gray;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.data-cont {
+    height: 85vh;
+    border: 1px solid gray;
+    margin: 10px 15px;
+}
+
+.title {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.list {
+    font-size: 25px;
+    margin: 0;
+    padding: 10px;
+    background: rgb(67, 92, 236);
+    color: white;
+}
+
+.bullet {
+    display: inline;
+    padding: 0 5px;
+    margin: 0 3px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.data div.data-info {
+    margin: 3px 10px;
+    padding: 5px 0px;
+    width: 330px;
+    color: rgb(53, 51, 51);
+    border-radius: 3px;
+    font-size: 20px;
+    border-bottom: 1px dashed gray;
+}
+
+.data {
+    height: 95%;
+    overflow-y: scroll;
+}
+
+.data a {
+    text-decoration: none;
+}
+
+.data div.data-info:hover {
+    background: rgb(66, 90, 98);
+    color: white;
+}

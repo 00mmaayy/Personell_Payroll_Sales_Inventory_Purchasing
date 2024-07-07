@@ -1,0 +1,204 @@
+body
+{
+    margin: 0;
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container
+{
+    height: 100vh;
+    width: 100%;
+}
+
+.details-container
+{
+    width: 45%;
+    border-right: 4px solid #242424;
+}
+
+.flex-column
+{
+    flex-direction: column;
+}
+
+.details-user
+{
+    color: white;
+    font-size: 25px;
+    margin: 10px 0px 0px 15px;
+}
+
+.details-ip
+{
+    color: yellow;
+    font-size: 15px;
+    margin: 4px 0px 0px 15px;
+}
+
+.grid
+{
+    display: grid;
+    height: 100%;
+    width: 60%;
+}
+
+.item-img
+{
+    grid-area: img;
+}
+
+.grid-image
+{
+    grid-template-columns: 40px auto 40px;
+    grid-template-rows: 40px auto 40px;
+    grid-template-areas:
+    ". . . "
+    ". img ."
+    ". . .";
+}
+
+.flex
+{
+    display: flex;
+}
+
+.bg-black
+{
+    background: #2F2F2F;
+}
+
+.details-title
+{
+    margin-top: 5px;
+}
+
+.details-info
+{
+    margin: 2px 0px 0px 20px;
+    color: white;
+}
+
+.details-title span
+{
+    color: #F53869;
+}
+
+.clr-gray
+{
+    color: #818284;
+}
+
+.details
+{
+    margin: 10px 30px ;
+    color: white;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.details i
+{
+    font-size: 15px;
+    margin-right: 7px;
+    width: 20px;
+}
+
+.btn
+{
+    background: transparent;
+    border: 0;
+    text-align: left;
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+
+.details-cont
+{
+    margin-top: 5px;
+}
+
+.details-title i
+{
+    color: white;
+}
+
+.content
+{
+    display: none;
+}
+
+.btn-update-submit
+{
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0;
+    outline: none;
+    color: #38B0F5;
+    background: transparent;
+    font-size: 20px;
+    margin: 20px 20px 0px 20px;
+    user-select: none;
+}
+
+.details input
+{
+    font-size: 10px;
+    background: #F0F0F0;
+    border: 1px solid gray;
+    height: 20px;
+    padding: 2px;
+}
+
+.content .enable
+{
+    font-size: 13px;
+    margin-left: 15px;
+}
+
+.details select
+{
+    font-size: 10px;
+    padding: 3px;
+    width: 150px;
+}
+
+.device 
+{
+    margin:2px 20px 0px 20px;
+    font-size: 25px;
+}
+
+.device span
+{
+    color: white;
+}
+
+.device-password
+{
+    margin: 0px 20px;
+    font-style: italic;
+}
+
+.device select
+{
+    font-size: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+.device-password span
+{
+    font-style: italic;
+    color: white;
+}
+
+.device-password input
+{
+    margin-top: 5px;
+    font-size: 10px;
+    background: #F0F0F0;
+    border: 1px solid gray;
+    height: 20px;
+    padding: 2px;
+}

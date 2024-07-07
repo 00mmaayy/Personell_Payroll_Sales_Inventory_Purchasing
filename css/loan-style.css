@@ -1,0 +1,240 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.center-horizontal {
+    margin: auto;
+}
+
+.loan-form {
+    width: 600px;
+    height: 615px;
+    border: 1px solid #0FD68D;
+    background: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    font-size: 12px;
+    padding: 0px;
+}
+
+.detail-header {
+    background: #0FD68D;
+    color: white;
+    height: 35px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 0;margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+}
+
+.button {
+    padding: 10px;
+    background: #0FD68D;
+    color: white;
+    width: 82%;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 42px;
+}
+
+.employee-details {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+    color: #EF0040;
+    border: 1px solid #0FD68D;
+    width: 590px;
+}
+
+.loan-remarks {
+    width: 38%;
+    text-align: center;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+.period {
+    width: 10%;
+}
+
+.table-schedule {
+    display: block;
+    text-align: center;
+    width: 800px;
+    height: auto;
+    max-height: 650px;
+    overflow-y: scroll;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.table-details {
+    width: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.thead-schedule {
+    background: #3C87F5;
+    
+}
+
+.thead-schedule th {
+    border: 1px solid #2F64B2;
+}
+
+.table-schedule td {
+    border-top: 1px solid gray;
+}
+
+.table-details th {
+    padding: 10px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.table-details td {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.table-details span {
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+    font-size: 14px;
+}
+
+.add-loan-body {
+    overflow: hidden;
+    display: flex;
+}
+
+.loan-exist {
+    margin-left: 20px;
+    width: 50%;
+    font-size: 11px;
+}
+
+.loan-exist-table th, .loan-exist-table td {
+    font-size: 9px;
+    text-align: center;
+}
+
+.loan-choices input {
+    background: #D4483D;
+}
+
+.choices-margin-top {
+    margin-top: 25px;
+}
+
+input, select, textarea {
+    margin: 0px auto 12px auto;
+    padding: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 100%;
+    margin-left: 40px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+input {
+    width: 480px;
+}
+
+select {
+    width: 500px;
+}
+
+textarea {
+    width: 485px;
+    height: 35px;
+}
+
+span {
+   margin: 40px;
+   padding: 0;
+   font-weight: bold;
+   font-size: 9px;
+}
+
+thead {
+    margin: 0;
+    background: #ff4b3d;
+    color: white;
+}
+
+
+th {
+    border-right: 1px solid #D4483D;
+    padding: 10px;
+    font-size: 11px;
+    margin: 0px;
+    text-align: center;
+}
+
+table {
+    max-width: 100%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+td {
+    padding: 8px;
+    border-top: 1px solid gray;
+    font-size: 11px;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:link {
+    color: #2FC349;
+}
+
+a:visited {
+    color: #246068;
+}
+
+a:hover {
+    padding: 5px;
+    background: #2FA243;
+    color: white;
+    border-radius: 5px;
+}
+
+.clear-btn
+{
+    width: 40px;
+    border: 1px solid red;
+    padding: 5px;
+    background: transparent;
+    color: red;
+    margin: 2px;
+    font-size: 11px;
+    cursor: pointer;
+}

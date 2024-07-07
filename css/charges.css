@@ -1,0 +1,146 @@
+body {
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.container {
+    width: 100%;
+}
+
+.data-container {
+    width: 70%;
+}
+
+.monitoring-container {
+    width: 35%;
+    margin: 10px auto;
+}
+
+.data-row {
+    width: 90%;
+    margin: 5px auto 5px auto;
+    border-bottom: 1px dashed gray;
+}
+
+.e-name {
+    width: 200px;
+    font-size: 15px;
+    border-right: 1px dashed gray;
+    padding: 5px 5px 5px 0;
+    color: #F44336;
+}
+
+input {
+    padding: 10px;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.remarks {
+    width: 280px;
+}
+
+.center {
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+select {
+    padding: 10px;
+    font-size: 12px;
+}
+
+.filter {
+    width: 300px;
+    margin: 10px auto 10px auto;
+}
+
+.button {
+    width: 60px;
+    border: 0;
+    color: white;
+    background: #F44336;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #B71C1C;
+}
+
+.adj-data,
+.title-head,
+.title-foot {
+    padding: 7px 10px;
+}
+
+.title-name,
+.adj-name,
+.foot-total {
+    width: 250px;
+}
+
+.title-adj,
+.adj-amt,
+.foot-amount {
+    width: 250px;
+}
+
+.title-rem,
+.adj-rem,
+.foot-blank {
+    width: 400px;
+}
+
+.title-head {
+    background: #F44336;
+    color: white;
+    font-size: 13px;
+}
+
+.adj-rem {
+    word-wrap: break-word;
+}
+
+.adj-data {
+    font-size: 14px;
+    border-right: 1px solid gray;
+}
+
+.details-cont:nth-child(odd) {
+    background: rgb(98, 97, 97);
+    color: white;
+}
+
+.details-cont:hover {
+    background: rgb(117, 171, 241);
+    color: white;
+}
+
+.title-foot {
+    background: #B71C1C;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+.button-del {
+    color: red;
+    background: transparent;
+    border: 0;
+    font-size: 17px;
+}

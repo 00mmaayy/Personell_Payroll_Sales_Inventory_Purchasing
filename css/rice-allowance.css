@@ -1,0 +1,287 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(241, 241, 241);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.alc-container,
+.lh-container,
+.cbi-container,
+.kat-container,
+.kal-container {
+    margin: 25px auto;
+    width: 95%;
+}
+
+.alc-header {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 0;
+    background: rgb(62, 129, 62);
+    color: white;
+}
+
+.lh-header {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 0;
+    background: rgb(57, 73, 143);
+    color: white;
+}
+
+.cbi-header {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 0;
+    background: rgb(195, 140, 51);
+    color: white;
+}
+
+.kat-header {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 0;
+    background: rgb(49, 49, 49);
+    color: white;
+}
+
+.kal-header {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 0;
+    background: rgb(41, 147, 233);
+    color: white;
+}
+
+.alc-title div {
+    width: 9%;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgb(11, 82, 11);
+    background: rgb(84, 223, 84);
+    color: rgb(49, 49, 49);
+}
+
+.lh-title div {
+    width: 9%;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgb(12, 11, 82);
+    background: rgb(84, 105, 223);
+    color: white;
+}
+
+.cbi-title div {
+    width: 9%;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgb(160, 112, 2);
+    background: rgb(223, 170, 84);
+    color: white;
+}
+
+.kat-title div {
+    width: 9%;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgb(27, 27, 27);
+    background: rgb(192, 192, 192);
+    color: black;
+}
+
+.kal-title div {
+    width: 9%;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgb(2, 97, 160);
+    background: rgb(84, 195, 223);
+    color: black;
+}
+
+.alc-title .title-name,
+.lh-title .title-name,
+.cbi-title .title-name,
+.kat-title .title-name,
+.kal-title .title-name {
+    width: 21%;
+}
+
+.data-content .data-name,
+.data-footer .data-name {
+    width: 21%;
+    text-align: left;
+}
+
+.data-footer .data-name {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+
+.data-container {
+    border: 1px solid black;
+}
+
+.data-footer div {
+    border-top: 1px solid black;
+    font-weight: bold;
+    color: red;
+}
+
+.data-content div,
+.data-footer div {
+    width: 9%;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 5px;
+    background: rgb(251, 251, 251);
+    border-bottom: 1px solid black;
+}
+
+.input-container {
+    width: 500px;
+    margin: 15px auto;
+}
+
+input[type="date"] {
+    padding: 5px;
+}
+
+input[type="submit"] {
+    padding: 7.5px;
+    background: rgb(52, 61, 184);
+    border: 1px solid rgb(3, 10, 77);
+    color: white;
+    width: 90px;
+}
+
+.allowance-date {
+    width: 375px;
+    margin: auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.signatory-container {
+    width: 350px;
+    font-size: 15px;
+    margin: 70px 100px;
+    font-weight: bold;
+}
+
+.sign-title {
+    margin-bottom: 40px;
+}
+
+.signatory {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.signatory-title {
+    text-align: center;
+}
+
+.alc-container-printed,
+.lh-container-printed,
+.cbi-container-printed,
+.kat-container-printed,
+.kal-container-printed {
+    margin: 25px 10px;
+    width: 900px;
+}
+
+.data-content-printed div,
+.data-footer-printed div {
+    width: 33%;
+    text-align: center;
+    font-size: 12px;
+    padding: 3px 5px;
+    background: rgb(251, 251, 251);
+    border: 1px solid rgb(185, 185, 185);
+}
+
+.alc-title-printed .title-name,
+.lh-title-printed .title-name,
+.cbi-title-printed .title-name,
+.kat-title-printed .title-name,
+.kal-title-printed .title-name {
+    width: 33%;
+}
+
+.data-content-printed .data-name,
+.data-footer-printed .data-name {
+    width: 33%;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.alc-title-printed div {
+    width: 33%;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgb(11, 82, 11);
+    background: rgb(84, 223, 84);
+    color: rgb(49, 49, 49);
+}
+
+.lh-title-printed div {
+    width: 33%;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgb(12, 11, 82);
+    background: rgb(84, 105, 223);
+    color: white;
+}
+
+.cbi-title-printed div {
+    width: 33%;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgb(160, 112, 2);
+    background: rgb(223, 170, 84);
+    color: white;
+}
+
+.kat-title-printed div {
+    width: 33%;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgb(27, 27, 27);
+    background: rgb(192, 192, 192);
+    color: black;
+}
+
+.kal-title-printed div {
+    width: 33%;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgb(2, 97, 160);
+    background: rgb(84, 195, 223);
+    color: black;
+}
+
+.alc-container-printed .count {
+    width: 3%;
+}

@@ -1,0 +1,408 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: scroll;
+}
+
+.header form {
+    width: 100%;
+    display: flex;
+}
+
+.header button {
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin: 15px 0px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.header button:focus {
+    color: royalblue;
+    outline: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: row;
+}
+
+.date {
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.sort {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.sort select {
+    height: 35px;
+    width: 200px;
+    font-size: 12px;
+    padding: 2px;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 1px solid #E0E6F2;
+    outline: none;
+    margin-right: 20px;
+}
+
+.sort input,
+.comp input {
+    width: 80px;
+    height: 30px;
+    background: royalblue;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 7px #6F7D98;
+}
+
+.sort input:active,
+.comp input:active {
+    background-color: royalblue;
+    box-shadow: 0 3px #7C838F;
+    transform: translateY(4px);
+}
+
+.comp {
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.comp select {
+    margin: 5px 10px 5px 10px;
+    padding: 10px;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    font-size: 12px;
+}
+
+.comp label {
+    font-size: 13px;
+}
+
+.data .name {
+    margin-left: 5px;
+    text-align: left;
+}
+
+.data:nth-child(even) {
+    background: #EBEBEB;
+}
+
+.data:hover {
+    background: rgb(198, 240, 229);
+}
+
+.monthly-container {
+    width: 100%;
+font-size: 12px;
+}
+
+.name {
+    font-weight: bold;
+    border-right: 1px solid gray;
+}
+
+.total-first {
+    font-weight: bold;
+    color: red;
+    border-right: 1px solid gray;
+}
+
+.total-second {
+    font-weight: bold;
+    color: blue;
+    border-right: 1px solid gray;
+}
+
+.total {
+    font-weight: bold;
+    color: blue;
+    border-right: 1px solid gray;
+}
+
+.rem-mon {
+    font-weight: bold;
+}
+
+.total-rem {
+    font-weight: bold;
+    color: red;
+    border-right: 1px solid gray;
+}
+
+.monthly-summary {
+    width: 875px;
+    margin: 30px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+.monthly-titles {
+    font-size: 15px;
+    text-align: left;
+}
+
+.first-total,
+.second-total,
+.total-pi,
+.total-rema {
+    font-weight: bold;
+    color: red;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.monthly-titles div,
+.data-total div {
+    padding: 3px 15px 5px 10px;
+    font-family: monospace;
+}
+
+.monthly-titles div {
+    font-weight: bold;
+}
+
+.data-total {
+    font-size: 15px;
+}
+
+.data-half {
+    margin: 0px 30px;
+}
+
+.month-header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.dashed {
+    border-bottom: 1px dashed gray;
+}
+
+.loan-total,
+.paid-total,
+.rem-total {
+    font-weight: bold;
+}
+
+.loan-total {
+    color: royalblue;
+}
+
+.paid-total {
+    color: green;
+}
+
+.rem-total {
+    color: red;
+}
+
+.rem-months {
+    font-weight: bold;
+}
+
+.summary {
+    width: 1000px;
+    margin: 15px auto;
+}
+
+.total-paid,
+.total-loan,
+.total-remaining {
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.total-paid {
+    color: green;
+}
+
+.total-loan {
+    color: royalblue;
+}
+
+.total-remaining {
+    color: red;
+}
+
+.loan-payroll-report {
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    width: 300px;
+    background: royalblue;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+}
+
+.loan-payroll-report a {
+    color: #fff;
+    text-decoration: none;
+}
+
+table {
+    font-size: 11px;
+    border-collapse: collapse;
+}
+
+thead th {
+    border: 1px solid #9C9C9C;
+}
+
+thead th {
+    color: white;
+    background: rgb(37, 37, 37);
+    width: 250px;
+    padding: 10px 0;
+}
+
+thead th:first-child {
+    width: 100px;
+}
+
+tbody td {
+    border-bottom: 1px solid #9C9C9C;
+}
+
+tbody td {
+    padding: 5px;
+    text-align: center;
+}
+
+tbody td:nth-child(2) {
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 4px;
+    text-align: left;
+}
+
+tbody td:nth-child(6) {
+    font-weight: bold;
+    color: royalblue;
+}
+
+tbody td:nth-child(9) {
+    font-weight: bold;
+    color: green;
+}
+
+tbody td:nth-child(11) {
+    font-weight: bold;
+    color: red;
+}
+
+tbody td:nth-child(12) {
+    font-weight: bold;
+    color: orange;
+}
+
+
+tbody td:last-child {
+    font-weight: bold;
+}
+
+td a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+tr:hover {
+    background: #D0D0D2;
+}
+
+table button {
+    outline: 0;
+    background: transparent;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    color: red;
+}
+
+.title div, .data div
+{
+    width: 175px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 7px 0px;
+}
+
+.title div
+{
+    font-size: 11px
+}
+
+.title
+{
+    background: #141414;
+    color: white;
+    height: 50px;
+    line-height: 35px;
+}
+
+.data .name
+{
+    margin-left: 5px;
+    text-align: left;
+}
+
+.data:nth-child(even)
+{
+    background: #EBEBEB;
+}
+
+.data:hover
+{
+    background: rgb(198, 240, 229);
+}
+
+.monthly-titles div, .data-total div
+{
+    padding: 3px 15px 5px 10px;
+    font-family: monospace;
+}
+
+
+.data-total
+{
+    font-size: 15px;
+}
+
+.data-half
+{
+    margin: 0px 30px;
+}
+
+@media all and (min-width: 1080px) {
+    .monthly-container {
+        width: 1920px;
+    }
+}
+
+@media all and (min-width: 1080px) {
+    .table-header,
+    .table-data {
+        width: 1920px;
+    }
+}

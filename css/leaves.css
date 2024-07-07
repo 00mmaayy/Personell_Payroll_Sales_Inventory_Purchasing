@@ -1,0 +1,185 @@
+.flex
+{
+    display: flex;
+}
+
+.flex-column
+{
+    display: flex;
+    flex-direction: column;
+}
+.leave-tracker-table
+{
+    width: 65%;
+    margin: 20px auto;
+}
+
+.leave-tracker-table thead
+{
+    background: royalblue;
+}
+
+thead th
+{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+thead .header td
+{
+    width: 20%;  
+    text-align: center;
+    padding: 5px 0;
+}
+
+thead .header
+{
+    background: rgb(46, 67, 131);
+    color: white;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+tbody
+{
+    font-size: 13px;
+}
+
+.vlrow td, .slrow td, .slprow td, .mplrow td, .elrow td, .olrow td, .ttlrow td
+{
+    width: 20%;
+    text-align: center;
+    padding: 7px 0;
+}
+
+.vlrow .title, .slrow .title, .slprow .title, .mplrow .title, .elrow .title, .olrow .title, .ttlrow .title
+{
+
+    text-align: right;
+}
+
+.vlrow, .slrow, .slprow, .mplrow, .elrow, .olrow, .ttlrow
+{
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.ttlrow
+{
+    color: white;
+    background: maroon;
+}
+
+.leave-tracker-table tbody tr:nth-child(even)
+{
+    background: #C9C4D8;
+}
+
+.leave-tracker-table tbody tr:hover
+{
+    background: rgb(165, 236, 177);
+}
+
+.wp
+{
+    color: blue;
+    font-weight: bold;
+}
+
+.np
+{
+    color: blue;
+    font-weight: bold;
+}
+
+.total
+{
+    color: teal;
+    font-weight: bold;
+}
+
+.rem
+{
+    color: red;
+    font-weight: bold;
+}
+
+.leave-filter
+{
+    width: 95%;
+    margin: auto;
+}
+
+.leave-filter input[type="date"]
+{
+   font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+   width: 150px;
+   padding: 5px;
+   border: 0;
+   border-bottom: 1px solid gray;
+   outline: none;
+   text-align: center;
+   margin: 0 5px;
+}
+
+.leave-filter select
+{
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    border: 0;
+    border-bottom: 1px solid gray;
+    outline: none;
+    margin: 0 5px;
+}
+
+.date-filter-container
+{
+    width: 100px;
+    margin: 0;
+}
+
+.leave-filter label
+{
+    font-size: 12px;
+}
+
+.leave-filter input[type="submit"]
+{
+    margin-left: 10px;
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 10px;
+    width: 100px;
+    background: royalblue;
+    color: white;
+    border: 0;
+    outline: 0;
+}
+
+.batch-entry a
+{
+    color: royalblue;
+    background: linear-gradient(to right, royalblue 50%, white 50%);
+    background-size: 203% 100%;
+    background-position: right bottom;
+    padding: 10px 10px;
+    border-bottom: 1px solid royalblue;
+    transition: all .5s ease-out;
+    outline: 0;
+    text-decoration: none;
+}
+
+.batch-entry a:hover
+{
+    background-position: left bottom;
+    color: white;
+}
+
+
+
+.batch-entry
+{
+    margin: 15px auto 0 auto;
+    width: 135px;
+}
